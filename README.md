@@ -1,7 +1,10 @@
-# Challenge 01: Creating a 3-tier Environment on Azure using Terraform
+# Challenge 01: 
+
+## Creating a 3-tier Environment on Azure using Terraform
+
 This guide explains how to use Terraform to create a 3-tier environment on Azure. The environment includes an application tier, a web tier, and a data tier, each with their own virtual machines and load balancers. The steps outlined here are high-level and may need to be customized based on your specific requirements.
 
-## Prerequisites
+### Prerequisites
 
 Before you start, you need to have the following:
 
@@ -9,7 +12,7 @@ Before you start, you need to have the following:
 * The Azure CLI installed
 * Terraform installed
 
-## Steps
+### Steps
 
 1. Define the Azure provider and authenticate Terraform with your Azure account.
     * Please refer to [01-provider.tf](https://github.com/maltif/KPMG-Challenges/blob/main/Challenge-01/terraform/01-provider.tf) for terraform code.
@@ -37,12 +40,16 @@ Before you start, you need to have the following:
     * Please refer to [09-sql-server-firewall-rule.tf](https://github.com/maltif/KPMG-Challenges/blob/main/Challenge-01/terraform/09-sql-server-firewall-rule.tf) for terraform code.
 
 
-# Challenge 02: Query the meta data of an Azure instance in JSON Formatted Output
+# Challenge 02: 
+
+## Query the meta data of an Azure instance in JSON Formatted Output
 
 Please refer to [metadata-output](https://github.com/maltif/KPMG-Challenges/blob/main/Challenge-02/metadata-output.md) to see how to extract specific metadata fields from the JSON output using jq command.
 
 
-# Challenge 03: We have a nested object. We would like a function where you pass in the object and a key and get back the value.
+# Challenge 03: 
+
+## We have a nested object. We would like a function where you pass in the object and a key and get back the value.
 
 Example Inputs
 

@@ -1,7 +1,6 @@
 Here is the python function that can handle this task:
 
 ```python
-Copy code
 def get_value(obj, key):
     # Split the key into parts based on the '/'
     key_parts = key.split('/')
