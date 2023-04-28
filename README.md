@@ -39,7 +39,7 @@ Before you start, you need to have the following:
 
 # Challenge 02: Query the meta data of an Azure instance in JSON Formatted Output
 
-Please refer to [metadata-output](https://github.com/maltif/KPMG-Challenges/blob/main/Challenge-02/metadata-output) to see how to extract specific metadata fields from the JSON output using jq command.
+Please refer to [metadata-output](https://github.com/maltif/KPMG-Challenges/blob/main/Challenge-02/metadata-output.md) to see how to extract specific metadata fields from the JSON output using jq command.
 
 
 # Challenge 03: We have a nested object. We would like a function where you pass in the object and a key and get back the value.
@@ -54,4 +54,4 @@ key = x/y/z
 value = a
 ```
 
-To check how to retrieve a value from a [nested-object](https://github.com/maltif/KPMG-Challenges/blob/main/Challenge-03/nested-object) using user input for the object and key, you can check out the nested-object file in the GitHub repository.
+To check how to retrieve a value from a [nested-object](https://github.com/maltif/KPMG-Challenges/blob/main/Challenge-03/nested-object.md) using user input for the object and key, you can check out the nested-object file in the GitHub repository.
