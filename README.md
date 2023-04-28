@@ -6,7 +6,7 @@ Step 1: Create an Azure Resource Group
 An Azure Resource Group is a logical container for our resources. 
 It's a best practice to create a separate resource group for each environment (dev, test, prod) to help with management and security.
 
-we can create a new resource group using the following Azure CLI command:
+we can create a new resource group using the following Azure CLI command: 
 
 #az group create --name myResourceGroup --location eastus
 This command creates a resource group named "myResourceGroup" in the "East US" region.
