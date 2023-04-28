@@ -9,6 +9,8 @@ Before you start, you need to have the following:
 * The Azure CLI installed
 * Terraform installed
 
+## Steps
+
 1. Define the Azure provider and authenticate Terraform with your Azure account.
     * Please refer to [01-provider.tf](https://github.com/maltif/KPMG-Challenges/blob/main/terraform/01-provider.tf) for terraform code.
 2. Create a resource group for environment.
